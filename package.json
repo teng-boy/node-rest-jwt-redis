@@ -1,0 +1,32 @@
+{
+  "name": "node-rest-jwt-redis",
+  "version": "1.0.0",
+  "description": "node rest jwt redis demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/product.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broncoss/node-rest-jwt-redis.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "jwt",
+    "redis"
+  ],
+  "author": "broncoss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/broncoss/node-rest-jwt-redis/issues"
+  },
+  "homepage": "https://github.com/broncoss/node-rest-jwt-redis#readme",
+  "dependencies": {
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.5",
+    "redis": "^2.7.1",
+    "restify": "^4.3.0"
+  }
+}
